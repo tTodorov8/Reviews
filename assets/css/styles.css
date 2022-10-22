@@ -1,0 +1,83 @@
+main {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  max-width: 350px;
+  border: 1px solid rgb(0, 183, 255);
+  border-radius: 5px;
+  padding: 20px;
+}
+.title {
+  text-transform: capitalize;
+}
+.underline {
+  margin-bottom: 50px;
+  border-top: 2px solid rgb(0, 183, 255);
+  border-radius: 5px;
+
+  max-width: 140px;
+  margin: 20px auto;
+}
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+#person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+#author {
+  text-transform: capitalize;
+  font-size: 24px;
+  color: rgb(9, 148, 222);
+}
+#job {
+  font-size: 20px;
+  color: rgb(4, 73, 113);
+  text-transform: capitalize;
+}
+#info {
+  padding: 20px;
+}
+
+.prev-btn,
+.next-btn {
+  color: rgb(9, 148, 222);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: rgb(9, 148, 222);
+  transition: 2s;
+}
+.random-btn {
+  margin-top: 0.5rem;
+  color: rgb(0, 183, 255);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border-color: rgb(9, 148, 222);
+  cursor: pointer;
+  font-size: 24px;
+}
+.random-btn:hover {
+  transition: 1s;
+  background: rgb(0, 183, 255);
+  color: rgb(197, 247, 247);
+}
